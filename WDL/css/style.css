@@ -1,0 +1,36 @@
+#menu-head {
+    margin: 0;
+    padding: 5% 10%;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+.add-food {
+    margin: 5% 0;
+}
+#food-form{
+    display: none;
+}
+
+.item{
+    margin: 5% 0;
+    padding: 2% 0;
+    background-color: lightgray;
+    border-radius: 5%;
+}
+
+.menuImages {
+    width: 70%;
+    margin: 0 15%;
+    box-shadow:10px 10px 10px grey;  
+    border-radius: 10px;
+}
+
+.list-group-item{
+    margin: 10px 0;
+}
+
+.item-details{
+    text-align: center;
+    margin-top: 5px; 
+}

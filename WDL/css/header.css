@@ -1,0 +1,21 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-image: linear-gradient(to right,rgb(179, 162, 253),rgb(73, 43, 243));
+}
+
+#logo{
+    margin-left: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+ul{
+  margin-left: 2%;
+}
+
