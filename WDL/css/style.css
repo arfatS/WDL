@@ -1,7 +1,11 @@
+body{
+    background-color: #d3fff8;
+}
+
 #menu-head {
     margin: 0;
     padding: 5% 10%;
-    background-color: lightgray;
+    background-color: #00f7cd;
     font-weight: bold;
 }
 
@@ -15,15 +19,16 @@
 .item{
     margin: 5% 0;
     padding: 2% 0;
-    background-color: lightgray;
-    border-radius: 5%;
+    background-color: #00f7cd;
+    border-radius: 2%;
+    border: 1px solid #06bea0;
 }
 
 .menuImages {
     width: 70%;
     margin: 0 15%;
-    box-shadow:10px 10px 10px grey;  
-    border-radius: 10px;
+    box-shadow:10px 10px 10px gray;  
+    border-radius: 2%;
 }
 
 .list-group-item{
@@ -33,4 +38,37 @@
 .item-details{
     text-align: center;
     margin-top: 5px; 
+}
+
+.footer{
+    height: 10vh;
+    margin: 0;
+}
+
+.loginform{
+    padding: 5%;
+    background-color: white;
+    border: 1px solid lightgray; 
+    border-radius: 3%;
+    font-weight: bold;
+
+}
+
+.login {
+    margin: 6% 0;
+}
+
+.loginhead img{
+    height: 120px;
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.loginhead{
+    margin: 6% 0;
+    text-align: center;
+}
+
+#register {
+    margin: 5% 0;
 }

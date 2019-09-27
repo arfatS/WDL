@@ -6,7 +6,7 @@ body{
 
 
 nav {
-    background-image: linear-gradient(to right,rgb(179, 162, 253),rgb(73, 43, 243));
+    background-image: linear-gradient(to right,#ce93d8,#4a148c);
 }
 
 #logo{
