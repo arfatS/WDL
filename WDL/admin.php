@@ -1,9 +1,19 @@
 
 <?php include "includes/header.php";?>
 
-<div class="container">
+<div class="container-fluid">
+
     <div class="row">
-        <div class="add-food col-6">
+        
+        <div class="col-2 admin-sidebar position-fixed">
+            <p id="welcomeadmin">Welcome Admin</p>
+            <a href="" class="sidelink btn">New Food Item</a>
+            <a href="" class="sidelink btn">View Food Items</a>
+            <a href="" class="sidelink btn">View Users</a>
+            <a href="" class="sidelink btn" >View Food Items</a>
+        </div>
+
+        <div class="col-10 add-food">
             <h2 id="">Enter food details <span><button class="btn" style="font-size:24px" onclick="foodForm()"><i class="fa fa-plus-square"></i></button></span></h2>
            
             <?php include "checkdb.php";
@@ -53,6 +63,7 @@
                 <button type="submit" name="submit" class="btn btn-success">Submit</button>
             </form>
         </div>
+
     </div>
 </div>
 

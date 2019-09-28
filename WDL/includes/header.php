@@ -31,8 +31,7 @@
 		            <li class="nav-item ml-3"><a class="nav-link" href="order.php">Order</a></li>
 		            <li class="nav-item ml-3"><a class="nav-link" href="about.php">About</a></li>
 		            <li class="nav-item ml-3"><a class="nav-link" href="contact.php">Contact Us</a></li>
-					 <li class="nav-item ml-3"><a class="nav-link" href="login.php">Login</a></li>
-		         	<li class="nav-item ml-3"><a class="nav-link" href="register.php">Register</a></li>					 
+					<li class="nav-item ml-3"><a class="nav-link" href="login.php">Login</a></li>
 		            <li class="nav-item ml-3"><a class="nav-link" href="admin.php">Admin</a></li>
 		        </ul>
 

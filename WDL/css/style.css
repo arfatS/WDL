@@ -1,5 +1,7 @@
 body{
-    background-color: #d3fff8;
+    /* background-color: #d3fff8; */
+    background-image: linear-gradient(to right,#dcf8f3,#90ebe6);
+
 }
 
 #menu-head {
@@ -9,8 +11,14 @@ body{
     font-weight: bold;
 }
 
+.sidebar{
+    background-color: #00f7cd;
+
+}
+
 .add-food {
-    margin: 5% 0;
+    margin-top: 3%;  
+    margin-left: 20%; 
 }
 #food-form{
     display: none;
@@ -71,4 +79,25 @@ body{
 
 #register {
     margin: 5% 0;
+}
+
+.admin-sidebar {
+    background-color: #1b023a;
+    height: 90vh;
+}
+
+.sidelink {
+    height: 15%;
+    display: block;
+    text-align: center;
+    margin-top: 25%;
+    text-decoration: none;
+    color: white;
+}
+
+#welcomeadmin{
+    color: white;
+    text-align: center;
+    margin: 5% 0;
+    font-size: 22px;
 }
