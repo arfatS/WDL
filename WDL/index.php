@@ -21,16 +21,16 @@
             position : relative;
             
         }
-
-        button {
+    
+        a {
             position : absolute;
             top : 70%;
             left : 50%;
             transform : translate(-50%, -50%);
-            height : 80px;
+            /* height : 80px;
             width : 160px;
-        }
-
+        } */
+    }
         h1 {
             position : absolute;
             top : 20%;
@@ -52,17 +52,14 @@
 </head>
 <body>
 
+    <p class="text-center">Eat ~~ Sleep ~~ Repeat</p>
     <h1>Welcome to Canteen Management System</h1>
-    <button class="btn btn-danger btn-lg"  onclick="home()">LET&#39;S START</button>
+    <a href="menu.php" class="btn btn-danger btn-lg">OPEN</a>
 
     <footer>
         <p>&copy;All rights reserved. 2019</p>
     </footer>
 
-    <script>
-        function home(){
-            window.location = "menu.php";
-        }
-    </script>
+    
 </body>
 </html>
