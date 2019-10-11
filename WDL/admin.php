@@ -100,15 +100,15 @@
                 <div class="loginhead">
                     <h2><strong>Admin Login</strong></h2>
                 </div>
-                <form action="admin.php" method="post" class="loginform">
+                <form action="admin.php" method="post" id="admin_form" class="loginform">
                     <div class="form-group login">
                         <label for="adminname">Admin Name</label>
-                        <input type="text" class="form-control" name="adminname" id="adminname" placeholder="Admin Name">
+                        <input type="text" class="form-control" name="adminname" id="adminname" placeholder="eg: arfat">
                     </div>
     
                     <div class="form-group login">
                         <label for="password">Password</label>
-                        <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                        <input type="password" class="form-control" name="password" id="password" placeholder="eg: arfat">
                     </div>
 
                     <input type="submit" class="btn btn-success btn-block" name="submit" id="submit" value="Submit">
