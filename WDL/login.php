@@ -4,6 +4,7 @@
 
     session_start();
 
+
     if(isset($_POST['submit'])){
 
         include "includes/checkdb.php";
@@ -50,15 +51,15 @@
                     <!-- <a href="index.php"><img src="images/canteen.png" alt=""></a> -->
                     <h2><strong>Login to Canteen</strong></h2>
                 </div>
-                <form action="login.php" method="post" class="loginform">
+                <form action="login.php" method="post" id="login_form" class="loginform">
                     <div class="form-group login">
                         <label for="username">User Name</label>
-                        <input type="text" class="form-control" name="username" id="username" placeholder="User Name">
+                        <input type="text" class="form-control" name="username" id="username" placeholder="eg: Bruce Banner">
                     </div>
 
                     <div class="form-group login">
                         <label for="password">Password</label>
-                        <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                        <input type="password" class="form-control" name="password" id="password" placeholder="eg: yourpassword">
                     </div>
 
                     <input type="submit" class="btn btn-success btn-block" name="submit" id="submit" value="Submit">

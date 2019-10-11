@@ -33,25 +33,25 @@
                 }
             ?>
 
-            <form action="register.php" method="post" class="loginform">
+            <form action="register.php" method="post" id="register_form" class="loginform">
                 <div class="form-group login">
                     <label for="username">Full Name</label>
-                    <input type="text" class="form-control" name="username" id="username" placeholder="Full Name">
+                    <input type="text" class="form-control" name="username" id="username" placeholder="eg: Tony Stark">
                 </div>
 
                 <div class="form-group login">
                     <label for="mobile">Mobile</label>
-                    <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Mobile Number">
+                    <input type="text" class="form-control" name="mobile" id="mobile" placeholder="eg: 9876543210">
                 </div>
 
                 <div class="form-group login">
                     <label for="email">Email Id</label>
-                    <input type="email" class="form-control" name="email" id="email" placeholder="something@example.com">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="something@example.com">
                 </div>
 
                 <div class="form-group login">
                     <label for="password">Password</label>
-                    <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="eg: yourpassword">
                 </div>
 
                 <div class="form-group login">
