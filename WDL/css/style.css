@@ -150,3 +150,8 @@ label {
 .card-title{
     font-weight: bold;
 }
+
+.error {
+    color: red;
+    margin-left: 5px;
+  }
